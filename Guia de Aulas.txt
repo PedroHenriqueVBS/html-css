@@ -1,0 +1,35 @@
+ex 001 - Parágrafos.
+
+ex 002 - Paráfragos, quebras de linha, adicionar simbolos e emojis.
+
+ex 003 - Carregar imagens e icones de site.
+
+ex 006 - Hierarquia de parágrafos.
+
+ex 008 - Semântica.
+
+ex 008 B - Formatação de Texto.
+
+ex 009 - Listas ordenadas e Não ordenadas e de definição.
+
+ex 010 - Links internos externos e de definição..
+
+ex 010 B - Links para download/Hiper links.
+
+ex 011 - Imagens dinâmicas.
+
+ex 011 B - Audio.
+
+ex 012 - Hospedagem de videos.
+
+ex 013~15 - Estilos.
+
+ex 016 - Cores.
+
+ex 017, 18 - Fontes.
+
+ex 019 - Identificadores.
+
+ex 020 - Pseudo classes.
+
+ex 021 - Modelo de caixas.

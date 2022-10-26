@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+    padding: 20px;
+    color: rgb(#ffffffff);
+    font-size: 60px;
+    text-shadow: 2px 2px 4px black;
+}
+main {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    background-image: url(Imagens/Rosa_2.jpeg);
+    width: 600px;
+    height: 750px;
+    margin: auto;
+    text-align: center;
+}
+
+.conteudo {
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.botao {
+    box-shadow:inset 0px 1px 13px 0px #e184f3;
+	background:linear-gradient(to bottom, #de2424 5%, #a00dbd 100%);
+	background-color:#de2424;
+	border-radius:6px;
+	border:1px solid #a511c0;
+	display:inline-block;
+	cursor:pointer;
+	color:#f7f7f7;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	padding:20px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9b14b3;
+    
+}
+ 
+.botao:hover {
+    background:linear-gradient(to bottom, #a00dbd 5%, #de2424 100%);
+    transition-duration: 300ms;
+	background-color:#a00dbd;
+    
+}
+
+.botao:active {
+    position:relative;
+	top:1px;
+}
+
+#nao:hover {
+    opacity: 0%;
+}
+
+
+.gradient-border {
+    --borderWidth: 5px;
+    
+    position: relative;
+    border-radius: var(--borderWidth);
+}
+.gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #de2424, #de2424,#de2424 , #e10505, #9204ca,#a511c0 , #a00dbd, #8d07b6);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 2.5s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+
+  @keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

@@ -1,0 +1,35 @@
+@charset "UTF'8'";
+    /*
+    em HTMl id é # em css ( só pode um elemento )
+    em HTML class é . em css ( pode vários elementos
+    */
+body {
+    background-color: rgba(7, 250, 7, 0.357);
+}
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: rgb(37, 95, 37);
+}
+
+h1#principal {
+    text-align: center;
+}
+
+.basico {
+    color: rgba(165, 42, 42, 0.535);
+}
+
+.intermediario {
+    color: rgba(255, 166, 0, 0.686);
+}
+
+.avancado {
+    color: rgba(255, 0, 0, 0.522);
+}
+.destaque {
+    background-color: blueviolet;
+}
