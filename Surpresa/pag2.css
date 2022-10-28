@@ -1,17 +1,36 @@
 
+header {
+    background-color: aquamarine;
+    border: 0px;
+    margin: 0%;
+}
+
  h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 30px;
 }
 
-div{
-    width: 850px;
+body {
+    background-color: antiquewhite;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+.quadro{
+    max-width: 1000px;
     height: 450px;
     border: 5px solid black;
     justify-content: center;
     columns: 2;
     margin: auto;
+    padding: 10px;
 }
 
 div p {
@@ -22,8 +41,14 @@ div p {
     margin: 0;
 }
 
-div > img {
-    width: 190px;
-    height: 190px;
+img {
     padding: 6px;
 }
+
+.poster {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+
+}
+
