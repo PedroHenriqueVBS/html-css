@@ -1,6 +1,6 @@
 
 header {
-    background-color: aquamarine;
+    background-color: rgba(230, 108, 9, 0.224);
     border: 0px;
     margin: 0%;
 }
@@ -15,6 +15,7 @@ header {
 }
 
 body {
+    background-image: url(Imagens/fundo3.png);
     background-color: antiquewhite;
 }
 
